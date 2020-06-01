@@ -1,0 +1,81 @@
+
+<html>
+<head>
+<title>Login</title>
+</head>
+<style>
+.button {
+	background-color: #5792d1; /* Green */
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 7px 2px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+#text-position {
+	position: absolute;
+	bottom: 200px;
+	text-align: center;
+	width: 100%;
+}
+
+.tb11 {
+	background: #FFFFFF url('images/username.png') no-repeat 8px 8px;
+	border: 1px solid #848484;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	outline: 0;
+	height: 50px;
+	width: 275px;
+	padding-left: 100px;
+	padding-right: 10px;
+}
+
+.tb11::placeholder {
+	text-align: left;
+	font-family: Serif;
+	font-size: 20px;
+}
+
+.tb12 {
+	background: #FFFFFF url('images/password.png') no-repeat 4px 4px;
+	border: 1px solid #848484;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	outline: 0;
+	height: 50px;
+	width: 275px;
+	padding-left: 100px;
+	padding-right: 10px;
+}
+
+.tb12::placeholder {
+	text-align: left;
+	font-family: Serif;
+	font-size: 20px;
+}
+</style>
+<body background="   images/ap-detect.jpg"   >
+
+	<form action="loginurl" method="post">
+		<div id="  text-position"   >
+			<h1 style="color: white">ACCOUNT LOGIN</h1>
+			<br> <br> <input class="   tb11"   type="text" name="user" placeholder="UserName"required><br> <br> <br>
+			<input class="   tb12"   type="password"  name="pass" placeholder="   Password"   required><br>
+			<br> <br>
+			<button class="button" type="submit"> Login</button>
+			<br> <br> <a href="   signup.html "
+				style="color: white; font-size: 20px">New User?</a>
+		</div>
+	</form>
+</body>
+</html>
+
